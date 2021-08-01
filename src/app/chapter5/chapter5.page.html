@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter5</ion-title>
+    <ion-icon class="home" size="large" color="medium" name="home" [routerDirection]="'root'" [routerLink]="['/home']"></ion-icon>
+    <ion-icon class="toc" size="large" color="medium" name="layers" [routerDirection]="'root'" [routerLink]="['/toc']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="../../assets/pictures/The_End.jpg" alt="" />
+  <p>We never like to leave her behind.  So wherever we go, she normally goes too.
+    She is almost 7 years old now.  We can't wait for all the rest of adventures we will go on together!
+  </p>
+
+  <ion-fab vertical="center" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter4']">
+      <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <p id="page">5</p>
+
+</ion-content>

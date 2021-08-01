@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter2</ion-title>
+    <ion-icon class="home" size="large" color="medium" name="home" [routerDirection]="'root'" [routerLink]="['/home']"></ion-icon>
+    <ion-icon class="toc" size="large" color="medium" name="layers" [routerDirection]="'root'" [routerLink]="['/toc']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="../../assets/pictures/RidingInFront.jpeg" alt="" />
+  <p>As Eloise grew up we were able to see her personality develop.  She has always been very comfortable 
+    riding in the car to go on adventures with us.  </p>
+
+  <ion-fab vertical="center" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter1']"> 
+      <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter3']">
+      <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <p id="page">2</p>
+
+</ion-content>

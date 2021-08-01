@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter4</ion-title>
+    <ion-icon class="home" size="large" color="medium" name="home" [routerDirection]="'root'" [routerLink]="['/home']"></ion-icon>
+    <ion-icon class="toc" size="large" color="medium" name="layers" [routerDirection]="'root'" [routerLink]="['/toc']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="../../assets/pictures/PileOfPaws.jpeg" alt="" />
+  <p>Eloise loves taking naps or just lying outside in the sunshine.  You can tell when she gets really
+    comfortable, because she will flip over on her back.  But watch out ... after naptime is wrestling/"mauling" time.
+  </p>
+
+  <ion-fab vertical="center" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter3']">
+      <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter5']">
+      <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <p id="page">4</p>
+
+</ion-content>

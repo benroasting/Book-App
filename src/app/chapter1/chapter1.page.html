@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter1</ion-title>
+    <ion-icon class="home" size="large" color="medium" name="home" [routerDirection]="'root'" [routerLink]="['/home']"></ion-icon>
+    <ion-icon class="toc" size="large" color="medium" name="layers" [routerDirection]="'root'" [routerLink]="['/toc']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="../../assets/pictures/Puppy_Snuggle.jpeg" alt="" />
+  <p>This beautiful, amazing dog named Eloise Marie Young came to us in February of 2015!  She was adorable and we wanted to hold
+    her all the time, but she was actually very independent ... dispite what the picture shows.
+  </p>
+
+  <ion-fab vertical="center" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/toc']"> 
+      <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter2']">
+      <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <p id="page">1</p>
+
+</ion-content>

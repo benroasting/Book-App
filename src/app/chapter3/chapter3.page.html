@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Chapter3</ion-title>
+    <ion-icon class="home" size="large" color="medium" name="home" [routerDirection]="'root'" [routerLink]="['/home']"></ion-icon>
+    <ion-icon class="toc" size="large" color="medium" name="layers" [routerDirection]="'root'" [routerLink]="['/toc']"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img src="../../assets/pictures/Swimming.jpg" alt="" />
+  <p>Of all the things that Eloise loves to do ... swimming is at the top of the list!  
+    She also loves going for hikes, wrestling, playing basketball, and just being outside.  
+    She will play ball with you, but you have to do all the fetching!  She just likes to catch.
+  </p>
+
+  <ion-fab vertical="center" horizontal="start" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter2']"> 
+      <ion-icon size="large" name="chevron-back-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-fab vertical="center" horizontal="end" slot="fixed">
+    <ion-fab-button color="light" [routerDirection]="'root'" [routerLink]="['/chapter4']">
+      <ion-icon size="large" name="chevron-forward-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <p id="page">3</p>
+
+</ion-content>

@@ -1,0 +1,20 @@
+.welcome-card img {
+  max-height: 400px;
+  max-width: 350px;
+  overflow: hidden;
+}
+
+.ion-header{
+  position: relative;
+}
+
+.ion-icon{
+  position: absolute;
+
+}
+
+.toc{
+  right: 0;
+  position: absolute;
+  margin-top: -17px;
+}
